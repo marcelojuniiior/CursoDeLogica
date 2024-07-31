@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exercicios de lógica</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="../css/terreno.css">
+    <link rel="Stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <script src=" ../js/Condocionais/menor_de_tres.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h3>Menor_de_tres</h3>
+        <div id="form">
+            <form id="formMaior_de_tres">
+                <input type="number" id="primeiroValor" class="form-control" name="primeiroValor"
+                    placeholder="Digite o primeiro valor:" step='0.01' required />
+
+                <input type="number" id="segundoValor" class="form-control" name="segundoValor"
+                    placeholder="Digite o segundo valor:" required />
+
+                <input type="number" id="terceiroValor" class="form-control" name="terceiroValor"
+                    placeholder="Digite o terceiro valor:" required />
+
+                <input type="submit" class="form-control" />
+            </form>
+            <div id="resultado">
+                <label id="textResult"></label>
+                <label id="rCalculo"></label>
+                <button class="btn btn-light" onclick="calcularNovamente()">Calcular novamente</button>
+
+            </div>
+
+            <button class="btn " onclick="verMais()">
+                <p>Sobre o Problema "Menor de tres"</p>
+                <svg id="iconButton" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                </svg>
+                <span id="texto">
+                    <p>
+                        Fazer um programa para ler três números inteiros. Em seguida, mostrar qual o menor dentre os
+                        três
+                        números lidos. Em caso de empate, mostrar apenas uma vez.
+                    </p>
+                </span>
+            </button>
+        </div>
+        <button class="btn btn-light"><a href="/exerciciosCondicionais/">Voltar</a> </button>
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
