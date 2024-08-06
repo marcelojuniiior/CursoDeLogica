@@ -27,4 +27,18 @@ public class eRepetitivaController {
         modelAndView.setViewName("senha_fixa.html");
         return modelAndView;
     }
+
+    @RequestMapping("/tabuada")
+    public ModelAndView tabuada() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("tabuada.html");
+        return modelAndView;
+    }
+
+    @RequestMapping("/somaImpares")
+    public ModelAndView somaImpares() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("somaImpares.html");
+        return modelAndView;
+    }
 }
